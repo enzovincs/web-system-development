@@ -1,1 +1,41 @@
 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price Calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        input, button {
+            margin: 5px 0;
+            padding: 5px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Price Calculator</h1>
+
+    <label>Name:</label><br>
+    <input type="text" id="nombre" placeholder="Producto"><br>
+
+    <label>Price:</label><br>
+    <input type="number" id="precio" placeholder="0.00"><br>
+
+    <button id="agregar">Add to list</button>
+
+    <h2>Product list:</h2>
+    <ul id="lista"></ul>
+
+    <p>Total: <span id="total">0.00 €</span></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
