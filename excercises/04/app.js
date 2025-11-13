@@ -3,10 +3,10 @@ const { useState } = React;
 function App() {
 
   const products = [
-    { name: "Camiseta", price: 15 },
-    { name: "Pantalones", price: 30 },
-    { name: "Zapatillas", price: 50 },
-    { name: "Calcetines", price: 7 }
+    { name: "t-shirt", price: 15 },
+    { name: "Pants", price: 30 },
+    { name: "Sneakers", price: 50 },
+    { name: "Socks", price: 7 }
   ];
 
 
@@ -98,4 +98,5 @@ function App() {
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+
 root.render(React.createElement(App));
